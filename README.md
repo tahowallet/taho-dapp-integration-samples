@@ -6,7 +6,9 @@ This repo has been created to showcase integrations with the Tally wallet.
 
 In a nutshell tally wallet implements EIP-1193 and can be used as a standard wallet.\
 No extra integration effort/magic/sepcial speel is necessary.\
-But it's still better to show then tell, hence this repo :)
+But it's still better to show then tell, hence this repo :)\
+\
+If you are still not convinced check [this commit](https://github.com/tallycash/tally-dapp-integration-samples/commit/c254d032e02b2c0984f5b9d3cae442d41a75a207) where I update the `web3-react-simple` for Tally :D 
 
 ## Contributions
 
