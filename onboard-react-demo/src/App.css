@@ -1,0 +1,112 @@
+body {
+  font-family: "Helvetica Neue";
+  background-color: rgb(206, 175, 206);
+  background-image: url("bn-logo.png");
+  background-repeat: repeat;
+  max-width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    overflow: unset;
+    overflow-x: hidden;
+  }
+
+  main {
+    height: unset;
+    overflow: unset;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  div.container {
+    width: unset;
+  }
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  padding: 1rem;
+  /* width: 20rem; */
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  margin: 0.25rem;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: rgba(255, 255, 255, 0.6);
+  min-height: 3rem;
+  margin: 0.25rem;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+}
+
+.user-info span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  position: relative;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin: 0.25rem 1rem;
+}
+
+.user-avatar {
+  width: 32px;
+  border-radius: 100%;
+  border: 1px solid black;
+  left: 0;
+  transform: translate(-50%, 0);
+  position: absolute;
+}
+
+.bn-demo-button {
+  background: #ffffff;
+  font-size: 0.889rem;
+  border: 1px solid #eeeeee;
+  border-radius: 40px;
+  padding: 0.55rem 1.4rem;
+  color: #4a90e2;
+  margin: 0.25rem 0.5rem;
+  transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.bn-demo-button:focus {
+  outline: none;
+}
+
+.bn-demo-button:hover {
+  cursor: pointer;
+}

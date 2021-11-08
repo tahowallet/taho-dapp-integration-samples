@@ -17,6 +17,8 @@ PRs are preffered, but you got this ... :D
 
 Samples:
 
+- onboard-react-demo: [the official onboard](https://github.com/blocknative/react-demo)
+  - [live demo](https://reactdemo.blocknative.com/)
 - web3-react-official: [web3-react official example](https://github.com/NoahZinsmeister/web3-react/tree/v6/example)
 - web3-react-simple: [Shmoji/web3-react-example](https://github.com/Shmoji/web3-react-example)
   - [web3-react: Connect Users to MetaMask (or any wallet) From Your Frontend medium article](https://medium.com/coinmonks/web3-react-connect-users-to-metamask-or-any-wallet-from-your-frontend-241fd538ed39)

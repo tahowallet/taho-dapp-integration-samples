@@ -1,0 +1,42 @@
+{
+  "name": "onboard-notify-react",
+  "version": "0.13.2",
+  "dependencies": {
+    "bnc-notify": "^1.9.1",
+    "bnc-notify-staging": "https://github.com/blocknative/notify#develop",
+    "bnc-onboard": "https://github.com/tallycash/onboard#feature/tally-wallet",
+    "bnc-onboard-staging": "https://github.com/blocknative/onboard#develop",
+    "ethers": "^5.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "vconsole": "^3.3.4"
+  },
+  "scripts": {
+    "start": "HTTPS=true react-scripts start",
+    "start-staging": "REACT_APP_API_URL=wss://staging.api.blocknative.com/v0 REACT_APP_STAGING=true HTTPS=true react-scripts start",
+    "start-local": "REACT_APP_API_URL=ws://localhost:54100/v0 REACT_APP_STAGING=true HTTPS=true react-scripts start",
+    "build": "react-scripts build react-scripts build",
+    "build-staging": "REACT_APP_API_URL=wss://staging.api.blocknative.com/v0 REACT_APP_STAGING=true react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
