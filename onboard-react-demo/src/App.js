@@ -86,9 +86,8 @@ function App() {
   }, [])
 
   useEffect(() => {
-    const previouslySelectedWallet = window.localStorage.getItem(
-      'selectedWallet'
-    )
+    const previouslySelectedWallet =
+      window.localStorage.getItem('selectedWallet')
 
     if (previouslySelectedWallet && onboard) {
       onboard.walletSelect(previouslySelectedWallet)
@@ -213,9 +212,13 @@ function App() {
               src={ens.avatar ? ens.avatar : avatarPlaceholder}
               alt="avatar"
             ></img>
-            <div style={{
-              marginLeft: '10px'
-            }}>{ens.name}</div>
+            <div
+              style={{
+                marginLeft: '10px'
+              }}
+            >
+              {ens.name}
+            </div>
           </span>
         ) : (
           address && <span>{address}</span>
@@ -274,7 +277,7 @@ function App() {
             )}
           </div>
         </div>
-        <div className="container">
+        {/* <div className="container">
           <h2>Transaction Notifications with Notify</h2>
           <div
             style={{
@@ -387,7 +390,7 @@ function App() {
               Custom Notification
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="container">
           <h3>UI Settings</h3>
           <button
