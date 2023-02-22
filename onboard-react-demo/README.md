@@ -1,7 +1,7 @@
 # React Demo
 
 This code has been copied from the [official onboard demo](https://github.com/blocknative/react-demo) \
-(with the slight modifications to have tally module until the PR is accepted)
+(with the slight modifications to have Taho module until the PR is accepted)
 
 Just a heads up: this demo requires ssl on localhost.
 
