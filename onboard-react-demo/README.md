@@ -1,7 +1,6 @@
 # React Demo
 
-This code has been copied from the [official onboard demo](https://github.com/blocknative/react-demo) \
-(with the slight modifications to have Taho module until the PR is accepted)
+This code has been copied from the [official onboard demo](https://github.com/blocknative/react-demo).
 
 Just a heads up: this demo requires ssl on localhost.
 
@@ -11,13 +10,12 @@ just type `thisisunsafe` after clicking on an empty space in the window
 ---
 
 A repository to demonstrate a basic integration of 
-[Onboard](https://github.com/blocknative/onboard) 
-and [Notify](https://github.com/blocknative/onboard) into a React project.
-For detailed documentation, head to [docs.blocknative.com](https://docs.blocknative.com)
+[Web3 Onboard](https://github.com/blocknative/web3-onboard) into a React project. 
+For detailed documentation, head to [onboard.blocknative.com](hhttps://onboard.blocknative.com/docs/overview/introduction)
 
 
 <div align="center">
-  <img style="border-radius: 8px" width="75%" src="assets/react-demo.png">
+  <img style="border-radius: 8px" width="75%" src="assets/web3-onboard-react.png">
 </div>
 
 View live demo [here](https://reactdemo.blocknative.com/)!
@@ -51,7 +49,7 @@ yarn start
 The project will be running on [localhost:3000](http://localhost:3000)
 
 ### SSL
-Some wallets require that the website within which it runs be using a https 
+Some wallets require that the website within which it runs by using an https 
 connection. If you are testing one of these wallets, Ledger is one, then you have
 two options:
  1. Setup a valid certificate for localhost using [this guide](https://www.freecodecamp.org/news/how-to-set-up-https-locally-with-create-react-app/).
